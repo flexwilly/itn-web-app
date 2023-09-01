@@ -72,7 +72,7 @@ export default{
       ],
       locations:[
         {name:'Nairobi,Kenya'},
-        {name:'Dodoma,Tanzania'},
+        {name:'Luanda,Angola'},
         {name:'Ndola,Zambia'},
       ]
       }
