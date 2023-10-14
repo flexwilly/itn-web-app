@@ -9,20 +9,24 @@
     <!--Our History-->
     <v-row>
       <v-col>
-        <h1 class="text-purple text-capitalize">A brief history of ITN</h1>
+        <h1 class="text-purple text-capitalize">A brief history of ITNomads</h1>
         <p class="text-justify">
-          ITN was founded in July, 2021 and since then, it has become a leading
-          provider of custom website development, digital marketing, IT support
-          and mobile applications development. We are proud of our African roots
-          and our continued delivery of high quality services to our
-          ever-growing customer base.
+          ITNomads was started by a group of 3 friends based in different
+          countries within the East African region namely Kenya, Uganda and
+          Tanzania. These three friends had an idea to revolutionize varous
+          industries which they were part of using Information Technology. Over
+          the years these individuals have developed a broad skillset in
+          different programming languages and other technical and social skills
+          that they have honed to deliver various services. Many businesses have
+          continued to benefit from the services the company offers and this has
+          improved the rate of overall customer satisfaction.
         </p>
       </v-col>
     </v-row>
     <!---Our Staff-->
     <v-row>
       <v-col>
-        <h1 class="text-purple text-capitalize">Our staff</h1>
+        <h1 class="text-purple text-capitalize">Our Team</h1>
         <p class="text-justify">
           ITN has a team of highly qualified professionals with a vast array of
           experience in the latest technologies. Innovation is at the core of
@@ -36,7 +40,7 @@
     <!---Our Mission---->
     <v-row>
       <v-col>
-        <h1 class="text-purple text-capitalize">Our mission</h1>
+        <h1 class="text-purple text-capitalize">Our Mission</h1>
         <p class="text-justify">
           Our goal is to enable our customers excel in their respective markets
           by empowering them with the necessary software and digital

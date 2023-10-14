@@ -6,7 +6,7 @@
       <v-avatar size="40">
         <v-img src="/images/logo-2-itn.png"></v-img>
       </v-avatar>
-      <v-toolbar-title>ITN</v-toolbar-title>
+      <v-toolbar-title>ITNomads</v-toolbar-title>
       <v-spacer></v-spacer>
       <!---Menu tab-->
       <v-btn prepend-icon="mdi-arrow-down-drop-circle" color="grey">
