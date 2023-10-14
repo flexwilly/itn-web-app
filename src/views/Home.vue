@@ -59,22 +59,25 @@
       <v-divider color="purple"></v-divider>
 
       <!---Testimonials-->
-      <v-row class="mb-4">
-        <v-col>
+      <v-row class="mb-4 container">
+        <v-col md="8" lg="8" sm="11" class="align-center mx-auto">
           <h2 class="text-center text-purple mb-4">What our clients say..</h2>
-          <v-slide-group height="100" show-arrows hide-delimiters>
-            <v-slide-group-item v-for="t in testimonials" :key="t.name">
-              <v-card class="ma-1" color="grey" height="100" width="320">
+          <v-window height="100" show-arrows="hover" hide-delimiters>
+            <v-window-item v-for="t in testimonials" :key="t.name">
+              <v-card class="ma-2 text-center" color="grey" height="100">
                 <v-card-title class="text-subtitle-2 text-yellow-lighten-4">
                   <v-avatar size="30" class="border">
                     <v-img :src="t.image" cover></v-img>
                   </v-avatar>
                   {{ t.name }}</v-card-title
                 >
-                <v-card-text class="text-caption">{{ t.text }}</v-card-text>
+                <v-card-text
+                  class="text-caption ma-1"
+                  >{{ t.text }}</v-card-text
+                >
               </v-card>
-            </v-slide-group-item>
-          </v-slide-group>
+            </v-window-item>
+          </v-window>
         </v-col>
       </v-row>
     </v-container>
